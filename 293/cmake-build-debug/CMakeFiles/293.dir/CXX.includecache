@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hank08tw/Desktop/資訊之芽/293/main.cpp
+iostream
+-
+stdio.h
+-
+cstring
+-
+cstdlib
+-
+vector
+-
+ctime
+-
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+

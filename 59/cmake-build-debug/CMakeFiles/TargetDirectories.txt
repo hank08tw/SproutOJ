@@ -1,0 +1,3 @@
+/Users/hank08tw/Documents/GitHub/Sprout-OJ-solution/59/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/hank08tw/Documents/GitHub/Sprout-OJ-solution/59/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hank08tw/Documents/GitHub/Sprout-OJ-solution/59/cmake-build-debug/CMakeFiles/59.dir

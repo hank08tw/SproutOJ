@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/hank08tw/Documents/GitHub/Sprout-OJ-solution/20/main.cpp
+cstdio
+-
+iostream
+-
+vector
+-
+iostream
+-
+vector
+-
+
