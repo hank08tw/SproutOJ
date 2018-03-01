@@ -5,6 +5,7 @@ using namespace std;
 void quicksort(int left,int right,vector<int>& array){
     int i=left,j=right,tmp;
     while(i!=j){
+#j必須先往左走這樣才能確保 pivot頭元素交換到正確的位置
         while(array[j]>=array[left]&&i!=j){
             j--;
         }
@@ -16,11 +17,12 @@ void quicksort(int left,int right,vector<int>& array){
         }
     }
     SWAP (array[left], array[i],tmp);
-   
+    /*
     for(int i=0;i<array.size ();i++){
         cout << array[i] << ' ';
     }
     cout << endl;
+    */
     if(left<i-1) {//不可用!= 兩個數 1 2 次i-1<left 也是不等於
         quicksort (left, i-1, array);
     }

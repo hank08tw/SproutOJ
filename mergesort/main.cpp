@@ -5,7 +5,7 @@ void mergesort(vector<int>& num){
     if(num.size ()==1){
         return;
     }
-
+	#begin end傳的是iterator位址
     vector<int> left(num.begin (),num.begin ()+(num.size()/2));
     vector<int> right(num.begin ()+(num.size()/2),num.end ());
 
